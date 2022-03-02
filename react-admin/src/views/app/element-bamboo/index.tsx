@@ -7,10 +7,10 @@ import { EleFormItemActions } from './EleFormItemActions'
 function Index() {
   return (
     <EleForm {...{ labelWidth: '50px' }}>
-      <EleFormItem {...{ name: 'name', label: '名字' }}>
-        <EleFormItemInput {...{ name: 'name' }} />
+      <EleFormItem {...{ name: 'note', label: 'Note' }}>
+        {/* <EleFormItemInput {...{ name: 'note' }} /> */}
       </EleFormItem>
-      <EleFormItem {...{ name: 'age', label: '年龄' }}>
+      <EleFormItem {...{ name: 'age', label: 'age' }}>
         <EleFormItemInput {...{ name: 'age' }} />
       </EleFormItem>
       <EleFormItem>
