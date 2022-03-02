@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import App from './views/app'
 
 import './styles'
-import 'element-theme-default';
+import 'antd/dist/antd.css'
 
 // if (process.env.NODE_ENV === 'development') {
 //   const { mockXHR } = require('../mock')
