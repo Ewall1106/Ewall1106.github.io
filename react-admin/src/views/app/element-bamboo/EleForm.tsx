@@ -3,7 +3,12 @@ import 'element-theme-default'
 
 export const EleForm = props => {
   return (
-    <Form {...props}>
+    <Form
+      {...props}
+      labelWidth={props['label-width']}
+      labelPosition={props['label-position']}
+      labelSuffix={props['label-suffix']}
+    >
       {props.children ? (
         props.children
       ) : (

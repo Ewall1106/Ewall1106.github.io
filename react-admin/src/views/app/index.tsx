@@ -6,8 +6,8 @@ function App() {
   return (
     <div id="App">
       {/* <AntdIndex /> */}
-      <EleIndex />
-      {/* <EleBambooIndex /> */}
+      {/* <EleIndex /> */}
+      <EleBambooIndex />
     </div>
   )
 }

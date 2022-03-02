@@ -20,6 +20,9 @@ export const EleForm = props => {
         {...props}
         ref={ref}
         model={form}
+        labelWidth={props['label-width']}
+        labelPosition={props['label-position']}
+        labelSuffix={props['label-suffix']}
         // rules={{
         //   name: [
         //     { required: true, message: '改字段不能为空', trigger: 'change' },

@@ -6,9 +6,9 @@ import { EleFormItemActions } from './EleFormItemActions'
 
 function Index() {
   return (
-    <EleForm {...{ labelWidth: '50px' }}>
+    <EleForm {...{ 'label-width': '50px' }}>
       <EleFormItem {...{ name: 'note', label: 'Note' }}>
-        {/* <EleFormItemInput {...{ name: 'note' }} /> */}
+        <EleFormItemInput {...{ name: 'note' }} />
       </EleFormItem>
       <EleFormItem {...{ name: 'age', label: 'age' }}>
         <EleFormItemInput {...{ name: 'age' }} />
