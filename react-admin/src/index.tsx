@@ -4,6 +4,7 @@ import App from './views/app'
 
 import './styles'
 import 'antd/dist/antd.css'
+import 'element-theme-default'
 
 // if (process.env.NODE_ENV === 'development') {
 //   const { mockXHR } = require('../mock')

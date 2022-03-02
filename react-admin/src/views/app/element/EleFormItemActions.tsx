@@ -1,8 +1,10 @@
 import { useContext } from 'react'
 import { Button } from 'element-react'
 
-export const EleFormItemActions = props => {
-  const { form, resetFields, validate } = useContext(props.context)
+import { Context } from './EleForm'
+
+export const EleFormItemActions = () => {
+  const { form, resetFields, validate } = useContext(Context)
 
   // confirm
   const onConfirm = () => {

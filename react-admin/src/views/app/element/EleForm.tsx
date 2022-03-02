@@ -27,9 +27,7 @@ export const EleForm = props => {
         //   ]
         // }}
       >
-        {React.Children.map(props.children, child => {
-          return React.cloneElement(child, { context: Context })
-        })}
+        {props.children}
       </Form>
     </Context.Provider>
   )
