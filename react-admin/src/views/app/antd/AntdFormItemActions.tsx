@@ -36,7 +36,9 @@ export const AntdFormItemActions = props => {
 
   return (
     <Button.Group>
-      <Button onClick={onConfirm}>确认</Button>
+      <Button type="primary" onClick={onConfirm}>
+        确认
+      </Button>
       <Button onClick={onReset}>重置</Button>
       <Button onClick={onValidate}>校检</Button>
       <Button onClick={onReshow}>回显</Button>

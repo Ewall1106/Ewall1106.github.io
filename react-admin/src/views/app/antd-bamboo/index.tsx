@@ -7,7 +7,7 @@ function Index() {
   return (
     <div id="App">
       <AntdForm {...{ labelcolspan: 4, wrappercolspan: 4 }}>
-        <AntdFormItem {...{ name: 'note', label: 'Note' }}>
+        <AntdFormItem {...{ name: 'note', label: 'Note', required: true }}>
           <AntdFormItemInput />
         </AntdFormItem>
         <AntdFormItem {...{ name: 'age', label: 'age' }}>
