@@ -21,7 +21,6 @@ export const AntdFormItem = props => {
       //     }
       //   })
       // ]}
-      // validateTrigger="onChange"
     >
       {props.children}
     </Form.Item>

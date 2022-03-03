@@ -17,6 +17,7 @@ export const AntdFormItemActions = props => {
   }
   // 校检
   const onValidate = () => {
+    console.log('具体校检规则请在每个 FormItem.tsx 的 rules 属性中配置')
     form
       .validateFields()
       .then(values => {
@@ -28,10 +29,8 @@ export const AntdFormItemActions = props => {
   }
   // 回显
   const onReshow = () => {
-    console.log('reshow')
-    form.setFieldsValue({
-      // key: value
-    })
+    console.log('reshow 设置form.setFieldsValue({...})')
+    form.setFieldsValue({})
   }
 
   return (
