@@ -2,8 +2,14 @@ import { Form } from 'antd'
 
 export const AntdForm = props => {
   const layout = {
-    labelCol: { span: props.labelcolspan },
-    wrapperCol: { span: props.wrappercolspan }
+    labelCol: {
+      span: props.labelcolspan || undefined,
+      offset: props.labelcoloffset || undefined
+    },
+    wrapperCol: {
+      span: props.wrappercolspan || undefined,
+      offset: props.wrappercoloffset || undefined
+    }
   }
 
   return (
